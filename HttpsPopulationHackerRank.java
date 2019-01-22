@@ -360,7 +360,7 @@ public class HttpsPopulationHackerRank {
         }
 
         for (int i = 2; i <= page; i++) {
-            countries = getCountries("", 1);
+            countries = getCountries(sub, i);
             printOutput(countries, populatoin, c);
         }
         System.out.print(c.count);
@@ -374,7 +374,7 @@ public class HttpsPopulationHackerRank {
                     c.count++;
                 }
             }
-          //  System.out.println(c.count);
+            // System.out.println(c.count);
         } catch (Exception e) {
 
             e.printStackTrace();

@@ -18,9 +18,9 @@ public class ParseHttpsResponseGsonAppApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
-        new HttpsClientStocksHackerRank().testIt("1-January-2000", "21-February-2000", "Monday");
-        new HttpsPopulationHackerRank().testIt("un",100090);
+        new HttpsMoviewTitlesHackerRank().testIt("spiderman");
+      //  new HttpsClientStocksHackerRank().testIt("1-January-2000", "21-February-2000", "Monday");
+       // new HttpsPopulationHackerRank().testIt("un",100090);
 
     }
 }

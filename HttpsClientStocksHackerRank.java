@@ -143,7 +143,7 @@ public class HttpsClientStocksHackerRank {
         try {
 
             for (int i = 2; i <= page; i++) {
-                stocks = getStocks("", 1);
+                stocks = getStocks("", i);
                 saveInMap(stocks);
 
             }
