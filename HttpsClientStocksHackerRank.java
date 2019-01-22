@@ -164,7 +164,7 @@ public class HttpsClientStocksHackerRank {
 
     private void printOutput(String firstDate, String lastDate, String weekDay, Stocks stocks) {
         try {
-            String days[] = { "Monday", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY" };
+            String days[] = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
             int day = Arrays.asList(days).indexOf(weekDay) + 2;
             String fDate = firstDate;
 
